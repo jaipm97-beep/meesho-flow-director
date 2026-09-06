@@ -1,0 +1,28 @@
+# Environment variables (CRITICAL: Never commit your real API key!)
+.env
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Local temporary crops & user uploads
+static/safe_crops/*
+static/uploads/*
+
+# Cloudflare, executables & logs
+*.log
+cloudflared.exe
+
+# Root temporary test images & deploy zips
+clean_*.jpg
+clean_*.png
+test_*.jpg
+test_*.png
+test_*.md
+compare_*.jpg
+perfect_*.jpg
+safe_*.jpg
+tryon_*.png
+red_lace_*.jpg
+*.zip
+scratch/
